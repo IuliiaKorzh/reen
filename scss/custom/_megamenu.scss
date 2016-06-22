@@ -1,0 +1,34 @@
+.mega-dropdown {
+  position: static !important;
+  background: #f5f7fa;
+  //width: 100%;
+}
+
+.mega-dropdown-menu {
+  padding: 20px 0px;
+  width: 100%;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+	& > li > ul {
+	  padding: 0;
+	  margin: 0;
+	}
+	& > li > ul > li {
+	  list-style: none;
+	}
+	& > li > ul > li > a {
+	  display: block;
+	  padding: 3px 20px;
+	  clear: both;
+	  font-weight: normal;
+	  line-height: 1.4;
+	  color: $text-color;
+	  white-space: normal;
+	}
+	& .dropdown-header {
+	  color: $headings-color;
+	  font-size: 18px;
+	  font-weight: bold;
+	  padding: 3px 20px 3px 0;
+	}
+}
